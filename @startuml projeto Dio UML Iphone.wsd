@@ -1,0 +1,19 @@
+@startuml projeto Dio UML Iphone
+    class ReprodutorMusical {
+
+        +boolean Tocar
+        +boolean Pausar 
+
+        Integer selecionarMusica()
+    }
+    class AparelhoTelefonico {
+        +boolean Ligar 
+        +boolean atender
+        
+        Integer iniciarCorreioVoz
+    }
+    class NavegadorInternet {
+        +integer exibirPagina()
+        +integer adicionarNovaAba()
+        +integer atualizarPagina ()
+    }
